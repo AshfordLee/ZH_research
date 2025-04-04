@@ -1,0 +1,73 @@
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+.env
+.venv
+env/
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志文件
+*.log
+logs/
+log/
+
+# 输出和临时文件
+*.csv
+*.xlsx
+*.txt
+output*/
+*.out
+tmp/
+temp/
+
+# 本项目特定文件
+# 添加你的项目特定需要忽略的文件
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 文档
+docs/_build/
+docs/site/
+
+# Jupyter Notebook
+.ipynb_checkpoints 
