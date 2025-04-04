@@ -518,7 +518,7 @@ def get_user_input():
     # 获取时间窗口大小
     while True:
         try:
-            window = int(input("请输入时间窗口大小(秒) (默认为60): ") or "60")
+            window = int(input("请输入时间窗口大小(秒) (默认为1000): ") or "1000")
             if window > 0:
                 break
             else:
@@ -529,7 +529,7 @@ def get_user_input():
     # 获取起始时间戳
     while True:
         try:
-            date_str = input("请输入起始日期 (YYYY-MM-DD) (默认为今天): ") or datetime.now().strftime("%Y-%m-%d")
+            date_str = input("请输入起始日期 (YYYY-MM-DD) (默认为2025-04-04): ") or "2025-04-04"
             time_str = input("请输入起始时间 (HH:MM:SS) (默认为09:30:00): ") or "09:30:00"
             
             # 验证日期和时间格式
